@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"></meta>
+		<title>Lamaran Kerja</title>
+	</head>
+	<body>
+	<h1>Surat Lamaran Pekerjaan</h1>
+		<img src = "uia.jpg" alt= "poto>
+		<p>Kepada Yth.</p>
+		<p>HRD PT. Maju Jaya </p>
+		</br>
+	
+		<p>JL. Jonggol</p>
+		</br>
+	
+		<p>Dengan Hormat</p>
+		</br>
+	
+		<p>Saya yang bertanda tangan di bawah ini:</p>
+		</br>
+	
+		<table border = "1">
+			<tr>
+				<th>Nama</th>
+				<th>Usia</th>
+				<th>Kota</th>
+			</tr>
+			
+			<tr>
+				<td>Merylien Jovanda</td>
+				<td></td>
+				<td>Jakarta</td>
+			</tr>
+		</table>
+		<p>Saya ingin mengajukan posisi <b>WEB DEVELOPER</b> di PT Maju Jaya. Saya memiliki keterampilan dalam berbagai proyek.</p>
+		
+		<h2><b>Kemampuan</b></h2>
+	</body>
+</html>
