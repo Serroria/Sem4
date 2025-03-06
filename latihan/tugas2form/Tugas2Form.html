@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tugas membuat form</title>
+    </head>
+    <body>
+        <form>
+            <label for="text">Nama:</label>
+            <input type="text" id="name" name="name">
+            <br>
+
+            <label for="email">Email:</label>
+            <input type ="email" name="email" required>
+            <br>
+
+            <label for="text">Jenis Kelamin:
+                 <input type="radio" name="gender" value="male">Laki-laki
+            </label>
+
+            <label>
+                <input type="radio" name="gender" value="female">Perempuan
+            </label>
+            <br>
+
+            <label for="text">Hobi: 
+                <input type="checkbox" name="hobi" value="Musik">Musik
+                <input type="checkbox" name="hobi" value="olahraga">olahraga
+            </label>
+            <br>
+
+            <label for="text">Pilih Kota: 
+                <select name="pilihan">
+                    <option value="1">Jakarta</option>
+                    <option value="2">Bogor</option>
+                    <option value="3">Madiun</option>
+                    <option value="4">Palembang</option>
+                </select>
+            </label>
+            <br>
+
+
+            <form action="uploud.php" method="post" enctype="multipart/form-data">
+                <label for="file">Uploud File: </label>
+                <input type="file" id="file" name="file">
+                <br>
+                <button type="submit">Daftar</button>
+            </form>
+
+        </form>
+    </body>
+</html>
