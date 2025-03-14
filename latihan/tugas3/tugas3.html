@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Halaman Singaperbangsa</title>
+        <link rel="stylesheet" href="style3.css">
+    </head>
+    <body>
+        <header>
+            <h1>Selamat Datang di Website Singaperbangsa</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#">Beranda</a></li>
+                <li><a href="#">Tentang</a></li>
+                <li><a href="#">Layanan</a></li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <section class="content">
+
+                <h2>Formulir Pendaftaran</h2>
+        <p>Silahkan isi formulir di bawah ini untuk mendaftar.</p>
+        <br>
+        <form>
+            <label for="text">Nama Lengkap:</label> <br>
+            <input type="text" id="name" name="name">
+            <br>
+
+            <label for="email">Email:</label> <br>
+            <input type ="email" name="email" required>
+            <br>
+
+            <label for="password">Pasword:</label> <br>
+            <input type ="password" name="password" required>
+            <br>
+
+            <label for="text">Jenis Kelamin:
+                <br> 
+                <input type="radio" name="gender" value="male">Laki-laki
+            </label>
+
+            <label>
+                <br>
+                <input type="radio" name="gender" value="female">Perempuan
+            </label>
+            <br>
+
+            <label for="text">Hobi: 
+                <br>
+                <input type="checkbox" name="hobi" value="Musik">Musik
+                <br>
+                <input type="checkbox" name="hobi" value="olahraga">Olahraga
+                <br>
+                <input type="checkbox" name="hobi" value="membaca">Membaca
+            </label>
+            <br>
+
+            <label for="text">Pilih Kota: 
+                <select name="pilihan">
+                    <option value="1">Jakarta</option>
+                    <option value="2">Bogor</option>
+                    <option value="3">Madiun</option>
+                    <option value="4">Palembang</option>
+                </select>
+            </label>
+            <br>
+            <label for="text">Pesan Tambahan: 
+            <textarea name="pesan" rows="4" cols="50" placeholder="Tulis pesan disini"></textarea>
+            </label>
+            <form action="uploud.php" method="post" enctype="multipart/form-data">
+               
+                <br>
+                <button type="submit">Daftar</button>
+            </form>
+
+        </form>
+
+        <footer>
+            <p>&copy; 2024 Halaman Web Singaperbangsa. mDibuat dengan CSS</p>
+        </footer>
+
+
+
+            </section>
+            <aside class="sidebar">
+                <h2>Sidebar</h2>
+                <p>Bagian sidebar dapat berisi tautan, iklan atau inforamsi tambahan</p>
+            </aside>
+
+
+        </div>
+
+        
+    </body>
+</html>
