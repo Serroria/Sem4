@@ -11,7 +11,8 @@ function rentangNilai(){
         nilaiMutu="D";
     }else if(nilai >=0 && nilai<=49){
         nilaiMutu="E";
+    }else if(nilai <0){
+        nilaiMutu="ERROR!"
     }
     let hasil=document.getElementById("hasil").innerText = nilaiMutu;
 }
-console.log(rentangNilai());
