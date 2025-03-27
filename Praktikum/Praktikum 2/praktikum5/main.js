@@ -6,6 +6,7 @@
 function salam(){
     alert("Selamat datang di website kami!");
 }
+salam();
 
 // function exampleLet(){
 //     let x = 10;
