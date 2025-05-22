@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    width: 70%;
+    padding: 50px; 
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+.section {
+    width: 80%;
+    padding: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+    border-radius: 5% 9% 0;
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section h2{
+    text-align: center;
+}
+
+ .kendaraan, .genap, .hewan, .genap-ganjil {
+            margin-bottom: 20px;
+        }
+
+         
